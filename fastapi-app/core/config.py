@@ -24,4 +24,4 @@ class Settings(BaseSettings):
     run: RunConfig = RunConfig()
     db: DataBaseConfig
 
-settings = Settings()
+settings = Settings() # type: ignore
